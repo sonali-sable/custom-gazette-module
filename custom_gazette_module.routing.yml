@@ -1,0 +1,7 @@
+custom_gazette_module.content:
+  path: '/custom-gazette-module'
+  defaults:
+    _controller: '\Drupal\custom_gazette_module\Controller\GazetteController::content'
+    _title: 'Custom Gazette Module'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,12 @@
+
+{# templates/gazette-notices.html.twig #}
+{% for notice in notices %}
+  <article>
+    <h2><a href="{{ notice.link }}">{{ notice.title }}</a></h2>
+    <p>{{ notice.publish_date|date('j F Y') }}</p>
+    <div>{{ notice.content }}</div>
+  </article>
+{% endfor %}
+
+{# Add pager here if needed #}
+{{ pager() }}

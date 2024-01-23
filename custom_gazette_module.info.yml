@@ -1,0 +1,6 @@
+name: 'Custom Gazette Module'
+type: module
+description: 'Drupal module to consume The Gazette REST API'
+package: Custom
+core_version_requirement: ^8 || ^9
+version: 1.0
